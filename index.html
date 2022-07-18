@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">WebStudio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+
+  <body>
+    <!--Шапка-->
+    <header class="top-header">
+      <nav class="nav">
+        <a class="logo link" href="./index.html" lang="en"> <span class="accent">Web</span>Studio</a>
+
+        <ul class="site-list list">
+          <li class="site-item"><a class="site-link current link" href="./index.html">Студия</a></li>
+          <li class="site-item"><a class="site-link link" href="./portfolio.html">Портфолио</a></li >
+          <li class="site-item"><a  class="site-link link" href="">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <ul class="contact list">
+        <li class="contact-item link">
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="contact-item"><a class="contact-link link"  href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
+    </header>
+
+    <!--Уникальный контент страницы-->
+    <main>
+      <section class="hero">
+        <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+        <button class="modal-btm" type="button">Заказать услугу</button>
+      </section>
+  
+
+      <!--Особенности-->
+      <section class="properties">
+        <!--скрытый h2-->
+        <h2 class="title" hidden>Особенности</h2>
+        <ul class="properties-item list">
+          <li class="properties-list">
+            <h3 class="properties-title-text">Внимание к деталям</h3>
+            <p class="properties-text">
+              Идейные соображения, а также начало повседневной работы по
+              формированию позиции.
+            </p>
+          </li>
+
+          <li>
+            <h3 class="properties-title-text">Пунктуальность</h3>
+            <p class="properties-text">
+              Задача организации, в особенности же рамки и место обучения кадров
+              влечет за собой.
+            </p>
+          </li>
+
+          <li class="properties-list">
+            <h3 class="properties-title-text">Планирование</h3>
+            <p class="properties-text">
+              Равным образом консультация с широким активом в значительной
+              степени обуславливает.
+            </p>
+          </li>
+
+          <li class="properties-list">
+            <h3 class="properties-title-text">Современные технологии</h3>
+            <p class="properties-text">
+              Значимость этих проблем настолько очевидна, что реализация
+              плановых заданий.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!--Чем мы занимаемся-->
+      <section class="activity">
+        <h2 class="title">Чем мы занимаемся</h2>
+        <ul class="activity-item list">
+          <li class="activity-list">
+            <img
+              src="./images/activity/web.jpg"
+              alt="верстка сайта по макету"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li class="activity-list">
+            <img
+              src="./images/activity/mobil.jpg"
+              alt="создание мобильных приложений"
+              width="370"
+              height="294"
+            />
+          </li>
+          <li class="activity-list">
+            <img
+              src="./images/activity/design.jpg"
+              alt="дизайн сайтов"
+              width="370"
+              height="294"
+            />
+          </li>
+        </ul>
+      </section>
+
+      <!--Наша команда-->
+      <section class="team">
+        <h2 class="title">Наша команда</h2>
+        <ul class="team-item list">
+          <li class="team-list">
+            <img
+              src="./images/team/Product-Designer.jpg"
+              alt="Игорь Демьяненко"
+              width="270"
+              height="260"
+            />
+            <h3 class="name-title">Игорь Демьяненко</h3>
+            <p class="name-text" lang="en">Product Designer</p>
+          </li>
+          <li>
+            <img
+              src="./images/team/Frontend-Developer.jpg"
+              alt="Ольга Репина"
+              width="270"
+              height="260"
+            />
+            <h3 class="name-title">Ольга Репина</h3>
+            <p class="name-text" lang="en">Frontend Developer</p>
+          </li>
+          <li>
+            <img
+              src="./images/team/Marketing.jpg"
+              alt="Николай Тарасов"
+              width="270"
+              height="260"
+            />
+            <h3 class="name-title">Николай Тарасов</h3>
+            <p class="name-text" lang="en">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./images/team/UI-Designer.jpg"
+              alt="Михаил Ермаков"
+              width="270"
+              height="260"
+            />
+            <h3 class="name-title">Михаил Ермаков</h3>
+            <p class="name-text" lang="en">UI Designer</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Подвал страницы-->
+    <footer class="footer">
+      <a class="link logo" href="./index.html" lang="en"> <span class="accent">Web</span><span class="accent-second">Studio</span></a>
+      <address>
+        <ul class="list-direction list">
+          <li class="direction-item">
+            <a class="direction-link-light link"
+              href="https://goo.gl/maps/oxH6Qy7vW1JRrcVw8"
+              target="_blank"
+              rel="noopener nofollow noreferrer"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
+          </li>
+          <li class="direction-item">
+            <a class="direction-link-dark link" href="mailto:info@example.com">info@example.com</a>
+          </li>
+          <li class="direction-item">
+            <a class="direction-link-dark link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
