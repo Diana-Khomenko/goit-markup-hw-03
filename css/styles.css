@@ -156,11 +156,8 @@ address {
 .hero {
   padding-top: 200px;
   padding-bottom: 280px;
-}
-
-.hero {
   background-color: #2f303a;
-  text-align: center;
+  align-items: center;
 }
 
 .main-title {
@@ -178,18 +175,10 @@ address {
   margin-bottom: 30px;
 }
 
-/* .button-hero {
-  display: flex;
-  justify-content: center;
-} */
-
 .modal-btm {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--second-title);
   background-color: #2196f3;
@@ -210,6 +199,27 @@ address {
 }
 
 /*Особенности*/
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.title-properties {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  padding-top: 0px;
+}
 
 .properties {
   background-color: var(--properties-color);
