@@ -252,7 +252,7 @@ address {
 
 .team-list:not(:last-child) {
   /* flex-basis: calc((100%-3 * 30) / 4); */
-  margin-right: 30px;
+  /* margin-right: 30px; */
 }
 
 .title {
@@ -291,8 +291,6 @@ footer {
 .page-footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
-  padding-right: auto;
 }
 
 .address {
@@ -375,9 +373,15 @@ button {
 
 /* Разделы с картинками */
 
+.nav-content-container {
+  padding-top: 20px;
+  border: 1px solid #eeeeee;
+}
+
 .nav-content-item {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
   margin-top: 34px;
 }
 
@@ -389,10 +393,13 @@ button {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  text-align: center;
 }
 
 .nav-content-text {
   font-size: 16px;
   line-height: 1.88;
   color: var(--text-color);
+  margin-top: 4px;
+  text-align: center;
 }
