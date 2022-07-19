@@ -31,24 +31,28 @@
 
       <ul class="contact list">
         <li class="contact-item link">
-          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <a class="contact-link contact-link-mail link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li class="contact-item"><a class="contact-link link"  href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+     
       </div>
     </header>
 
     <!--Уникальный контент страницы-->
     <main>
-      <section class="hero">
+      <section class="hero section">
         <div class="container">
         <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
+        <div class="button-hero">
         <button class="modal-btm" type="button">Заказать услугу</button>
         </div>
+        </div>
+
       </section>
   
 
       <!--Особенности-->
-      <section class="properties">
+      <section class="properties section">
         <div class="container">
         <!--скрытый h2-->
         <h2 class="title" hidden>Особенности</h2>
@@ -61,7 +65,7 @@
             </p>
           </li>
 
-          <li>
+          <li class="properties-list">
             <h3 class="properties-title-text">Пунктуальность</h3>
             <p class="properties-text">
               Задача организации, в особенности же рамки и место обучения кадров
@@ -89,7 +93,7 @@
       </section>
 
       <!--Чем мы занимаемся-->
-      <section class="activity">
+      <section class="activity section">
         <div class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="activity-item list">
@@ -122,7 +126,7 @@
       </section>
 
       <!--Наша команда-->
-      <section class="team">
+      <section class="team section">
         <div class="container">
         <h2 class="title">Наша команда</h2>
         <ul class="team-item list">
@@ -133,38 +137,46 @@
               width="270"
               height="260"
             />
+            <div class="name-container">
             <h3 class="name-title">Игорь Демьяненко</h3>
             <p class="name-text" lang="en">Product Designer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/team/Frontend-Developer.jpg"
               alt="Ольга Репина"
               width="270"
               height="260"
             />
+            <div class="name-container">
             <h3 class="name-title">Ольга Репина</h3>
             <p class="name-text" lang="en">Frontend Developer</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/team/Marketing.jpg"
               alt="Николай Тарасов"
               width="270"
               height="260"
             />
+            <div class="name-container">
             <h3 class="name-title">Николай Тарасов</h3>
             <p class="name-text" lang="en">Marketing</p>
+            </div>
           </li>
-          <li>
+          <li class="team-list">
             <img
               src="./images/team/UI-Designer.jpg"
               alt="Михаил Ермаков"
               width="270"
               height="260"
             />
+            <div class="name-container">
             <h3 class="name-title">Михаил Ермаков</h3>
             <p class="name-text" lang="en">UI Designer</p>
+            </div>
           </li>
         </ul>
         </div>
@@ -173,9 +185,9 @@
 
     <!--Подвал страницы-->
     <footer class="footer">
-      <div class="container">
+      <div class="container page-footer-container">
       <a class="link logo" href="./index.html" lang="en"> <span class="accent">Web</span><span class="accent-second">Studio</span></a>
-      <address>
+      <address class="address">
         <ul class="list-direction list">
           <li class="direction-item">
             <a class="direction-link-light link"
@@ -185,12 +197,13 @@
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li class="direction-item">
+          <li class="direction-item mail-item">
             <a class="direction-link-dark link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li class="direction-item">
+          <li class="direction-item  phone-item">
             <a class="direction-link-dark link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
+          
         </ul>
       </address>
       </div>
