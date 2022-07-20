@@ -138,7 +138,7 @@ address {
   color: var(--text-color);
 }
 .contact-item-phone {
-  padding-left: 50px;
+  margin-left: 50px;
 }
 
 .contact-link:hover,
@@ -250,6 +250,9 @@ address {
 }
 
 /*Чем мы занимаемся*/
+.activity {
+  padding-top: 0px;
+}
 
 .activity-item {
   display: flex;
@@ -387,6 +390,7 @@ button {
 
 .button-primery {
   background-color: var(--accent-color);
+  color: var(--second-title);
 }
 
 .button:hover,
